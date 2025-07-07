@@ -1,0 +1,30 @@
+[[package]]
+name = "interaction_scripts"
+source = "member"
+dependencies = [
+    "std",
+    "wallet_abi",
+]
+
+[[package]]
+name = "liquidity_pool"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "std"
+version = "0.68.9"
+source = "registry+std?0.68.9#QmUaBxMs2JvY1bXgRCdeCsG3o6TN82ftRgv4Tq7ytqUGUT!"
+
+[[package]]
+name = "wallet_abi"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "wallet_smart_contract"
+source = "member"
+dependencies = [
+    "std",
+    "wallet_abi",
+]
